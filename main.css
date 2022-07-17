@@ -1,0 +1,691 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{   
+    background-image: url(./img/papelazul\ com\ vermelho.jpg) ;
+    background-size: cover;
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow-x: hidden;
+
+    width: 100vw;
+    height: 100vh;
+    padding: 10px 17vw 20px  17vw;
+}
+main
+{   
+    background-color: rgba(255, 255, 255, 0.946);
+    color: rgba(203, 203, 203, 0.461);
+    border:1px solid rgba(0, 4, 4,0.5);
+    display: flex;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    
+    
+    
+}
+main:hover
+{   
+
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 20%);
+}
+
+    /*Página da esquerda*/
+.page-left
+{   
+    background-color: #335384;
+    width: 33%;
+    height: auto;
+    border-radius: 10px 0 0 10px;
+    display:block;
+    grid-template-columns: 100%;
+    background-size: cover;
+}
+
+    /*Centralização das caixas*/
+.caixa_central-left
+{
+    
+    margin: 10px 20px 10px 20px;
+}
+/*Centralização das caixas*/
+
+.caixa-1
+{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0px 5px 0px;
+
+
+}
+.foto
+{   
+    margin: auto;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background-image: url(./img/perfil.jpg);
+    background-size: cover;
+    
+}
+.caixa-2
+{   
+    height: auto;
+    padding: 0vh 2vw 0vh 2vw;
+}
+.informações-caixa-2
+{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    gap:5px;
+    align-items: center;
+}
+.informações-caixa-2 img 
+{
+    width: 20px;
+    height: 20px;
+}
+.informações-caixa-2 a
+{
+    text-decoration: none;
+    
+}
+#email-off
+{
+    display: none;
+}
+.informações-caixa-2 h3:hover
+{
+    color: rgb(191, 191, 191);
+}
+h3
+{
+    font-size: 10px;
+    color: #fff;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+}
+h2
+{
+    color: rgba(255, 255, 255, 0.479);
+    font-size:20px ;
+    
+}
+small{
+    font-size: 8px;
+    
+}
+.caixa-3
+{
+    height: auto;
+    padding: 0vh 2vw 0vh 2vw;
+}
+.informações-caixa-3
+{
+    display: grid;
+    row-gap: 10px;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 2fr 2fr 1fr 1fr;
+    gap:5px;
+    align-items: center;
+    width: 100%;
+}
+.informações-caixa-3 
+.circle
+{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.circle-img
+{   
+    
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    margin: auto;
+    background-color: #fff;
+}
+.circle-img-t
+{
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.442);
+}
+.caixa-4
+{
+    height: auto;
+    padding: 0vh 2vw 0vh 2vw;
+}
+/*Página da esquerda*/
+
+
+
+    /*Página da direita*/
+.page-right
+{
+    width: 67%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+    padding-bottom: 10px;
+}
+.caixa-5, .caixa-6, .caixa-7, .caixa-8
+{
+    width: 100%;
+    height: auto;
+    padding: 5px 2vw 5px 2vw;
+}
+span
+{
+    font-size: 9px;
+    color: #444440;
+}
+.caixa_central-nome
+{
+    display: block;
+    margin: 0 auto;
+}
+h1
+{
+    width: 100%;
+    color: #335384;
+    text-transform: uppercase;
+    font-size: 41px;
+    padding-top: 1rem!important;
+}
+.titulo-baixo h5
+{   
+    font-size: 15px;
+    letter-spacing: 3px;
+    padding-left: 10px;
+    color:#5ba7d1;
+    text-transform: uppercase;
+}
+.borda
+{   
+    border-bottom: 3px solid #444440;
+    width: 5vw;
+}
+.titulo-baixo
+{
+    display: flex;
+    align-items: center;
+}
+h1, .titulo-baixo
+{
+    margin-left: 20px;
+}
+.caixa_central-rigth
+{
+    background-color: #33538425;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+}
+p, li
+{
+    font-family: 'Assistant', sans-serif;
+    color: #444440;
+    font-size: 15px;
+}
+h5
+{
+    font-size: 15;
+    letter-spacing: 1px;
+    color:#5ba7d1;
+    text-transform: uppercase; 
+}
+.caixa_central-rigth h2
+{   
+    font-size: 13px;
+    color: #444440;
+    font-weight: 400;
+}
+.botao
+{   
+    display: flex;
+    background-color: #33538416;
+    padding: 10px;
+    border-radius: 5px;
+    justify-content: center;
+
+}
+#botão
+{   
+    width: 360px;
+    height: 35px;
+    border: none;
+    color: white;
+    background-image: linear-gradient(90deg,#3595ef,#4477e7);
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px 0 rgba(3, 154, 188, 0.418);
+    cursor: pointer;
+
+}
+#botão:hover{
+    background-color: rgb(7, 95, 184);
+    cursor: pointer;
+    transform: scale(1.05,1.05);
+    box-shadow: 0px 5px 5px 0 rgba(0, 39, 48, 0.701);
+
+}
+
+
+
+
+
+
+
+/*Página da direita*/
+
+
+
+
+
+
+
+
+@media (min-width:2250px)
+{
+    h1
+    {
+    
+        text-transform: uppercase;
+        font-size:90px;
+    }
+}
+@media (min-width:1600px)
+{
+    li, p
+    {
+        font-size: 26px;
+    }
+    h5
+    {
+        font-size: 30px;
+    }
+    .caixa-rigth
+    {
+        grid-template-rows:  auto auto auto;
+    }
+    .caixa_central-rigth h2
+    {
+        font-size:  25px;
+        font-weight:bold;
+    }
+    h1
+    {
+    
+        text-transform: uppercase;
+        font-size:60px;
+    }
+    .titulo-baixo h5
+    {      
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    .borda
+    {   
+        border-bottom: 3px solid #444440;
+        width: 5vw;
+    }
+    #botão
+    {   
+        width: 500px;
+        height: 60px;
+   
+    }
+    button
+    {
+        font-size: 30px;
+    }
+    .foto
+    {
+        width: 300px;
+        height: 300px;
+    }
+    .informações-caixa-2 img 
+    {
+        width: 50px;
+        height: 50px;
+    }
+    h3
+    {
+        font-size: 20px;
+    }
+    .caixa-2, .caixa-3, .caixa-4
+    {
+        padding: 1vh 2vw 0vh 1vw;
+    }
+    h2
+    {
+        font-size: 30px;
+    }
+    .circle-img
+    {
+        width: 10px;
+        height: 10px;
+    }
+    .circle-img-t
+    {
+        width: 10px;
+        height: 10px;   
+    }
+
+}
+@media (max-width:1440px)
+{   
+    .page-left
+    {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+    
+}
+@media (max-width:1024px)
+{   
+
+    body
+    {
+        padding: 10px 10vw 10px  10vw;
+    }
+    
+    .foto
+    {
+        width: 150px;
+        height: 150px;
+    }
+
+    h1, .titulo-baixo
+    {
+        margin-left: 0px;
+    }
+    h1
+    {
+        font-size: 38px;
+    }
+
+
+}
+@media (max-width:768px)
+{
+    body
+    {
+        padding: 10px 5vw 10px 5vw;
+    }
+    .foto
+    {
+        width: 130px;
+        height: 130px;
+    }
+    .caixa_central-left
+    {
+        margin: 5px 2px 5px 2px;
+        height: auto;
+    }
+    h2
+    {
+        font-size:20px ;
+    }
+    .page-left
+    {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto;
+    }
+    h1
+    {
+        font-size: 35px;
+    }
+    h5
+    {
+        font-size: 10px;
+    }
+    p, li
+    {
+        font-size: 12px;
+    }
+    .caixa_central-rigth h2
+    {   
+    font-size: 10px;
+    }
+    .titulo-baixo h5
+    {   
+        font-size: 12px;
+        letter-spacing: 0px;
+    }
+    #botão
+    {   
+        width: 200px;
+    }
+}
+@media (max-width:640px)
+{
+    #email-off
+    {
+        display: block;
+    }
+    #email-on
+    {
+        display:none;
+    }
+    h1
+    {
+        font-size: 30px;
+    }
+    h5
+    {
+        font-size: 8px;
+    }
+    button
+    {
+        font-size: 10px;
+    }
+}
+@media (max-width:550px)
+{  
+     h1
+    {
+        font-size: 25px;
+    }
+    h5
+    {
+        font-size: 8px;
+    }
+    h3
+    {
+        font-size: 9px;
+
+    }
+}
+@media (max-width:450px)
+{
+    h1
+    {
+        font-size: 23px;
+    }
+}
+@media (max-width:425px)
+{   
+    
+
+    .foto
+    {
+        width: 100px;
+        height: 100px;
+    
+    }
+    h3
+    {
+        font-size: 7px;
+
+    }
+    h2
+    {
+        font-size:20px ;
+    }
+    .informações-caixa-2 img 
+    {
+        width: 18px;
+        height: 18px;
+    }
+    .circle-img,.circle-img-t
+    {
+        height: 3px;
+        width: 3px;
+    }
+    h1
+    {
+        font-size: 21px;
+    }
+    h5
+    {
+        font-size: 8px;
+        letter-spacing: 2px;
+    }
+    p, li
+    {
+        font-size: 10px;
+    }
+    #botão
+    {   
+        width: 150px;
+    }
+}
+@media (max-width:375px)
+{
+    body
+    {
+        padding: 2vh 5vw 5vh  5vw; 
+
+    }
+    h2
+    {
+        font-size:15px ;
+    }
+    .foto
+    {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .informações-caixa-2 img 
+    {
+        width: 15px;
+        height: 15px;
+    }
+    h1
+    {
+        font-size: 17px;
+    }
+    h5
+    {
+        font-size: 5px;
+        letter-spacing: 1px;
+        padding-left: 6px;
+    }
+    .borda
+    {
+        border-bottom: 2px solid #444440;
+    }
+    .titulo-baixo h5
+    {   
+        font-size: 10px;
+        letter-spacing: 0px;
+    }
+    h5
+    {
+        font-size: 8px;
+        letter-spacing: 0px;
+        padding-left: 6px;
+    }
+   
+}
+@media (max-width:320px)
+{
+    body
+    {
+        padding: 5vh 5vw 10vh  5vw; 
+
+    }
+    .foto
+    {
+        width: 80px;
+        height: 80px
+    }
+    h3
+    {
+        font-size: 6px;
+    }
+    h1
+    {
+        font-size: 15px;
+    }
+    h5
+    {
+        font-size: 8px;
+        letter-spacing: 0px;
+        padding-left: 6px;
+    }
+    .borda
+    {
+        border-bottom: 2px solid #444440;
+    }
+    .titulo-baixo h5
+    {   
+        font-size: 8px;
+        letter-spacing: 0px;
+    }
+    #botão
+    {   
+        width: 100px;
+        height: 25px;
+    }
+    
+}
+
+
+
+
+
+
+@media (max-height:500px)
+{
+    #none-2
+    {
+        display: none;
+    }
+    .informações-caixa-3
+    {
+        grid-template-rows: 2fr 2fr 1fr;
+    }
+    #none
+    {
+        display: none;
+    }
+    .informações-caixa-2
+    {
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    }
+
+    body
+    {
+        padding: 10px 17vw 30vh  17vw;
+    }
+    
+}
