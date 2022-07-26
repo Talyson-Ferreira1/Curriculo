@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700&display=swap');
 *
@@ -530,6 +531,30 @@ h5
 
     }
 }
+@media (max-height:500px)
+{
+    #none-2
+    {
+        display: none;
+    }
+    .informações-caixa-3
+    {
+        grid-template-rows: 2fr 2fr 1fr;
+    }
+    #none
+    {
+        display: none;
+    }
+    .informações-caixa-2
+    {
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    }
+
+    body
+    {
+        padding: 10px 17vw 30vh  17vw;
+    }
+}
 @media (max-width:450px)
 {
     h1
@@ -685,28 +710,5 @@ h5
 
 
 
-@media (max-height:500px)
-{
-    #none-2
-    {
-        display: none;
-    }
-    .informações-caixa-3
-    {
-        grid-template-rows: 2fr 2fr 1fr;
-    }
-    #none
-    {
-        display: none;
-    }
-    .informações-caixa-2
-    {
-    grid-template-rows: 1fr 1fr 1fr 1fr ;
-    }
 
-    body
-    {
-        padding: 10px 17vw 30vh  17vw;
-    }
     
-}

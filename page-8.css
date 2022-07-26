@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *
 {
     padding: 0;
@@ -238,3 +239,245 @@ section img:hover
 
    
 }
+=======
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body
+{
+    background-color: rgb(109, 108, 108);
+    overflow-y: hidden;
+    
+}
+.nav_tabs
+{   
+    width: 100vw;
+    height: 100vh;
+    background-color:#363b48 ;
+    position: relative;
+
+}
+.nav_tabs ul
+{
+
+    list-style: none;
+
+}
+.nav_tabs ul li
+{
+    float: left; 
+}
+.nav_tabs label
+{   
+    width:150px;
+    padding: 10px;
+    background: #363b48;
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+.nav_tabs label:hover
+{
+    background:rgba(255, 255, 255, 0.126);
+}
+.rd_tabs:checked ~ .tab1
+{
+    background-color:#E4411E;
+}
+.rd_tabs:checked ~ .tab2
+{
+    background-color: #E4411E;
+}
+.rd_tabs:checked ~ .tab3
+{
+    background-color: #E4411E;
+}
+.rd_tabs:checked ~ .tab4
+{
+    background-color: #E4411E;
+}
+.rd_tabs:checked ~ .tab5
+{
+    background-color: #E4411E;
+}
+.rd_tabs:checked ~ .tab6
+{
+    background-color: #E4411E;
+}
+.rd_tabs:checked ~ .tab7
+{
+    background-color: #E4411E;
+}
+.rd_tabs
+{
+    display: none;
+}
+
+.content1, .content2, .content3, .content4, .content5, .content6, .content7
+{   
+    border-top: 1px solid rgba(0, 0, 0, 0.263);
+    display: none;
+    position: absolute;
+    height:100%;
+    width: 100%;
+    left: 0;
+}
+.rd_tabs:checked ~ .content1
+{
+    display: block;
+}
+.rd_tabs:checked ~ .content2
+{
+    display: block;
+}
+.rd_tabs:checked ~ .content3
+{
+    display: block;
+}
+.rd_tabs:checked ~ .content4
+{
+    display: block;
+}
+.rd_tabs:checked ~ .content5
+{
+    display: block;
+}
+.rd_tabs:checked ~ .content6
+{
+    display: block;
+}
+.rd_tabs:checked ~ .content7
+{
+    display: block;
+}
+
+.content1
+{
+    background-image: url(./img/mar-img.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(4px);
+}
+.content2
+{
+    background-image: url(./img/mar-img.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(4px);
+}
+.content3
+{
+    background-image: url(./img/mar-img.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(4px);
+}
+.content4
+{
+    background-image: url(./img/mar-img.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(4px);
+}
+.content5
+{
+    background-image: url(./img/mar-img.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(4px);
+}
+.content6
+{
+    background-image: url(./img/mar-img.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(4px);
+}
+.content7
+{
+    background-image: url(./img/mar-img.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(4px);
+}
+.content8
+{
+    background-image: url(./img/mar-img.jpg);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(4px);
+}
+
+
+section
+{
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+section img
+{
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+section img:hover
+{
+    transform: scale(1.05,1.05);
+}
+.mat
+{   
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.mat img
+{
+    width: 300px;
+    height: 200px;
+}
+
+
+
+
+
+
+@media (max-width:500px)
+{
+    section img
+{
+    width: 300px;
+    height: 200px;
+}
+}
+@media (max-width:999px)
+{
+
+    .nav_tabs ul
+    {   
+        display: flex;
+        overflow: scroll;
+    }
+    .mat
+    {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+   
+}
+>>>>>>> 35d8ef2829f0bc1db3054a1fcc22f7c5c3b8ae17
