@@ -178,7 +178,7 @@ small{
     color: black;
     border-radius:30px ;
     position: absolute;
-     bottom: 10%; 
+    bottom: 10%; 
     
 } 
 /*Página da esquerda*/
@@ -305,12 +305,6 @@ h5
 
 
 /*Página da direita*/
-
-
-
-
-
-
 
 
 @media (min-width:2250px)
