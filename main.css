@@ -46,6 +46,7 @@ main:hover
     display:block;
     grid-template-columns: 100%;
     background-size: cover;
+    
 }
 
     /*Centralização das caixas*/
@@ -62,6 +63,7 @@ main:hover
     align-items: center;
     justify-content: center;
     padding: 8px 0px 5px 0px;
+    position: relative;
 
 
 }
@@ -167,6 +169,17 @@ small{
     height: auto;
     padding: 0vh 2vw 0vh 2vw;
 }
+#download
+{
+    padding: 0.2rem 1rem;
+    text-decoration: none;
+    background: #fff;
+    color: black;
+    border-radius:30px ;
+    position: absolute;
+     bottom: 10%; 
+    
+} 
 /*Página da esquerda*/
 
 
@@ -473,6 +486,10 @@ h5
     {   
         width: 200px;
     }
+    #download
+    {
+        font-size: .5rem;
+    }
 }
 @media (max-width:640px)
 {
@@ -655,6 +672,10 @@ h5
     {   
         width: 100px;
         height: 25px;
+    }
+    #download
+    {
+        font-size: .4rem;
     }
     
 }
