@@ -9,6 +9,7 @@
 body
 {   
     background-image: url(./img/papelazul\ com\ vermelho.jpg);
+    background-attachment: fixed;
     background-size: cover;
     display: flex;
     align-items: center;
